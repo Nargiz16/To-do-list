@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css">
+    <link href="Instruments.css" rel="stylesheet" type="text/css">
+    <link href="style-page-1.css" rel="stylesheet" type="text/css">
+    <link href="style-page-3.css" rel="stylesheet" type="text/css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+<div class="main-app">
+    <div class="top-bar">
+        <div class=left-block>
+            <a class="logo-mini"></a>
+            <h2 class="title-mini main-text-style">Lists</h2>
+        </div>
+        <button class="hamburger-menu"></button>
+    </div>
+    <div class="middle-section">
+        <h2 class="section-title main-text-style">Tasks</h2>
+        <div class="main-content">
+            <div class="content-row">
+                <button class="edit-sign note-opener"></button>
+                <div class="content-row-name">
+                    <h2 class="name-style">Title</h2>
+                    <h2 class="add text-style">Kiss Maxim</h2>
+                </div>
+                <button class="delete-button">
+                    <div class="delete"></div>
+                </button>
+            </div>
+            <div class="content-row">
+                <button class="edit-sign calendar-opener"></button>
+                <div class="content-row-name">
+                    <h2 class="name-style">Execution Day</h2>
+                    <h2 class="add text-style">Monday, June 30</h2>
+                </div>
+                <button class="delete-button">
+                    <div class="delete"></div>
+                </button>
+            </div>
+            <div class="content-row">
+                <button class="deadline-sign calendar-opener"></button>
+                <div class="content-row-name">
+                    <h2 class="name-style">Deadline</h2>
+                    <h2 class="add text-style">Due Wednesday, July 22</h2>
+                </div>
+                <button class="delete-button">
+                    <div class="delete"></div>
+                </button>
+            </div>
+            <!--                <div class="content-row">-->
+            <!--                    <button class="repeat-sign"></button>-->
+            <!--                    <div class="content-row-name">-->
+            <!--                        <h2 class="name-style">Repeat</h2>-->
+            <!--                        <h2 class="add text-style">Daily</h2>-->
+            <!--                    </div>-->
+            <!--                    <button class="delete-button">-->
+            <!--                        <div class="delete"></div>-->
+            <!--                    </button>-->
+            <!--                </div>-->
+            <div class="content-row">
+                <button class="edit-sign note-opener"></button>
+                <div class="content-row-name">
+                    <h2 class="name-style">Note</h2>
+                    <h2 class="add text-style">Cuddle him</h2>
+                </div>
+                <button class="delete-button">
+                    <div class="delete"></div>
+                </button>
+            </div>
+            <div class="content-row">
+                <button class="star-button">
+                    <div class="star active"></div>
+                </button>
+                <div class="content-row-name">
+                    <h2 class="name-style">Priority</h2>
+                    <h2 class="add text-style">Important</h2>
+                </div>
+                <button class="delete-button">
+                    <div class="delete"></div>
+                </button>
+            </div>
+            <div class="content-row">
+                <button class="circle-button">
+                    <div class="circle"></div>
+                </button>
+                <div class="content-row-name">
+                    <h2 class="name-style">Status</h2>
+                    <h2 class="add text-style">In a progress</h2>
+                </div>
+                <button class="delete-button">
+                    <div class="delete"></div>
+                </button>
+            </div>
+        </div>
+        <div class="info-bar">
+            <h2 class="created">Created on Monday, July 16</h2>
+            <button class="trash"></button>
+        </div>
+    </div>
+    <div class="backdrop"></div>
+    <div class="menu">
+        <button class="close-menu"></button>
+        <div class="menu-content">
+            <div class="menu-content-row">
+                <button class="add-white-sign"></button>
+                <h2 class="add menu-text-style">Today</h2>
+            </div>
+            <div class="menu-content-row">
+                <button class="add-white-sign"></button>
+                <h2 class="add menu-text-style">Important</h2>
+            </div>
+            <div class="menu-content-row">
+                <button class="add-white-sign"></button>
+                <h2 class="add menu-text-style">Planned</h2>
+            </div>
+            <div class="menu-content-row">
+                <button class="add-white-sign"></button>
+                <h2 class="add menu-text-style">All</h2>
+            </div>
+            <div class="menu-content-row">
+                <button class="add-white-sign"></button>
+                <h2 class="add menu-text-style">Tasks</h2>
+            </div>
+            <div class="menu-content-row">
+                <button class="add-white-sign"></button>
+                <h2 class="add menu-text-style">Untitled list</h2>
+            </div>
+        </div>
+        <div class="new-list">
+            <button class="add-white-sign"></button>
+            <h2 class="add menu-text-style">New List</h2>
+        </div>
+    </div>
+    <div class="pop-up-small-window">
+        <div class="pop-up-small-window-top-container">
+            <button class="remove-button menu-text-style">Remove</button>
+            <h2 class="category-item menu-text-style">Title</h2>
+            <button class="set-button menu-text-style">Done</button>
+        </div>
+        <div class="text-container">
+            <button class="edit-white-sign"></button>
+            <div class="note-space"></div>
+        </div>
+    </div>
+    <div class="pop-up-window">
+        <div class="pop-up-window-top-container">
+            <button class="remove-button menu-text-style">Remove</button>
+            <h2 class="category-item menu-text-style">Execution Day</h2>
+            <button class="set-button menu-text-style">Set</button>
+        </div>
+        <div class="calendar-middle-container">
+            <button class="backward-button"></button>
+            <h2 class="indicator menu-text-style">August 2020</h2>
+            <button class="forward-button"></button>
+        </div>
+        <div class="day-of-week menu-text-style">
+            <div>Su</div>
+            <div>Mo</div>
+            <div>Tu</div>
+            <div>We</div>
+            <div>Th</div>
+            <div>Fr</div>
+            <div>Sa</div>
+        </div>
+        <div class="date-grid menu-text-style">
+            <button>
+                <time datetime="2020-08-01">1</time>
+            </button>
+            <button>
+                <time datetime="2020-08-02">2</time>
+            </button>
+            <button>
+                <time datetime="2020-08-03">3</time>
+            </button>
+            <button>
+                <time datetime="2020-08-04">4</time>
+            </button>
+            <button>
+                <time datetime="2020-08-05">5</time>
+            </button>
+            <button>
+                <time datetime="2020-08-06">6</time>
+            </button>
+            <button>
+                <time datetime="2020-08-07">7</time>
+            </button>
+        </div>
+    </div>
+    <div class="pop-up-small-window">
+        <div class="pop-up-small-window-top-container">
+            <button class="remove-button menu-text-style">Remove</button>
+            <h2 class="category-item menu-text-style">Note</h2>
+            <button class="set-button menu-text-style">Done</button>
+        </div>
+<!--        <div class="text-container">-->
+<!--            <button class="edit-white-sign"></button>-->
+<!--            <textarea class="note-space text-style" placeholder="Comment text"></textarea>-->
+<!--        </div>-->
+        <div class="pop-up-window">
+            <div class="pop-up-window-top-container">
+                <button class="remove-button menu-text-style">Remove</button>
+                <h2 class="category-item menu-text-style">Execution Day</h2>
+                <button class="set-button menu-text-style">Set</button>
+            </div>
+            <div class="calendar-middle-container">
+                <button class="backward-button"></button>
+                <h2 class="indicator menu-text-style">August 2020</h2>
+                <button class="forward-button"></button>
+            </div>
+    </div>
+</div>
+</div>
+</div>
+<script src="./inside.js"></script>
+</body>
+</html>
+
+
+
+
+
+            
+
+        
